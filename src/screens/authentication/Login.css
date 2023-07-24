@@ -12,6 +12,16 @@
   .logo {
     width: 30%;
   }
+
+  .note{
+    display: flex;
+    color:white;
+    width: 40%;
+    height:20%;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+  } 
   
   .login-btn {
     width: 150px;
