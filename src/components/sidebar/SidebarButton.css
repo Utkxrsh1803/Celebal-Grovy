@@ -1,0 +1,30 @@
+a{
+    text-decoration: none !important;
+}
+
+.button-body{
+    height:74px;
+    width:80px;
+    border-radius: 20px;
+    color:rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:5px auto;
+    transition: all 0.3s ease;
+}
+.button-body:hover{
+   transform: scale(1.1);
+}
+
+.active{
+    background-color: rgba(255, 255, 255, 0.13);
+    color:rgb(255, 255, 255);
+}
+
+.button-title{
+    margin:4px auto;
+    font-size: 15px;
+    font-weight:500;
+}

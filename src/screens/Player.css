@@ -1,0 +1,14 @@
+
+.left-body {
+    width:70%;
+    height: 90%;
+    margin-right:2%;
+  }
+  
+  .right-body {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
