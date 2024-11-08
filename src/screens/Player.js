@@ -16,8 +16,8 @@ export default function Player() {
   
   useEffect(() => {
     if (location.state) {
-      apiClient
-        .get("playlists/" + location.state?.id + "/tracks")
+      apiClient.get("playlists/" + location.state?.id + "/tracks")   //location.state -- > id=id 
+                                                                      //https://api.spotify.com/v1/playlists/123/tracks
         .then((res) => {
           setTracks(res.data.items);
           setCurrentTrack(res.data?.items[0]?.track);
